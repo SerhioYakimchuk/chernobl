@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <style>
+        </style>
+    </head>
+    <body>
+        <h1>
+            чорнобль
+        </h1>
+        
+        <br><br>
+        <p class="p11">
+            Чорно́биль — місто на Київському Поліссі. Лежить на правому березі річки Прип'ять (притоці Дніпра), при впадінні в неї річки Уж[1]. До аварії на Чорнобильській АЕС 1986 року — районний центр Київської області, після — адміністративний центр зони відчуження та зони безумовного (обов'язкового) відселення[1]. Підпорядкований Державному агентству України з управління зоною відчуження[1]. Чорнобиль має статус вахтового селища, де мешкають близько 2800 осіб вахтового персоналу та близько 100 «самопереселенців»[1].
+        </p>
+        <img src = "img1.jpg" class="img11" ><br class="img11"><br class="img11">
+        <button class="b11">
+            ще
+        </button>
+        <button class="b12">
+            фото
+        </button>
+    <script>
+            function rnum1(){
+                return Math.random()*400
+            }
+            function rnum2(){
+                return Math.random()*771
+            }
+
+            $(document).ready(function(){
+                
+                $(".p11").hide()
+                $(".img11").hide()
+                
+                $(".h11").click(function(){
+                    $(".h11").css()
+                })
+
+                $(".b11").click(function(){
+                    $(".p11").toggle('')
+                })
+                $(".b12").click(function(){
+                    $(".img11").toggle('')
+                })
+            })
+        </script>
+    </body>
+</html>
